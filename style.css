@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial, sans-serif';
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.discount-banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.discount-banner .discount {
+    font-size: 5rem;
+    color: #f77f00;
+}
+
+.subtitle, .collection {
+    font-size: 1.2rem;
+    margin: 5px 0;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-left, .image-right, .content-center {
+    flex: 1;
+    padding: 10px;
+}
+
+.image-left img, .image-right img, .content-center img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.image-left img:hover, .image-right img:hover, .content-center img:hover {
+    transform: scale(1.05);
+}
+
+.styling-tip {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.styling-tip h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.styling-tip p {
+    font-size: 1rem;
+    margin: 5px 0;
+}
+
+.shop-now {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.shop-now button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.shop-now button:hover {
+    background-color: #f77f00;
+}
